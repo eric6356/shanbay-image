@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "Shanbay Image Plugin",
+  "description": "搜索当前单词对应的图片，帮助记忆",
+  "version": "1.0",
+  "content_scripts": [{
+    "matches": ["https://www.shanbay.com/bdc/review/"],
+    "js": ["main.js"]
+  }],
+  "permissions": [
+   "activeTab"
+   ]
+}
