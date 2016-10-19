@@ -8,7 +8,11 @@
     "matches": ["https://www.shanbay.com/bdc/review/"],
     "js": ["main.js"]
   }],
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
   "permissions": [
-   "activeTab"
+   "activeTab",
+   "storage"
    ]
 }
