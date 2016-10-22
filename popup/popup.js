@@ -1,6 +1,6 @@
 function restoreConfig() {
     chrome.storage.sync.get({
-        engine: 'chrome',
+        engine: 'google',
         shortcut: 'i'
     }, function (items) {
         document.getElementById('engine').value = items.engine;

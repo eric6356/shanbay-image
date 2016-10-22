@@ -1,5 +1,5 @@
 var engineDict = {
-    chrome: 'https://www.google.com/search?tbm=isch&q=',
+    google: 'https://www.google.com/search?tbm=isch&q=',
     bing: 'https://cn.bing.com/images/search?q='
 }
 
