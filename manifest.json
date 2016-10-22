@@ -10,11 +10,20 @@
       ],
     "js": ["main.js"]
   }],
-  "browser_action": {
-    "default_popup": "popup.html"
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
   },
   "permissions": [
-   "activeTab",
-   "storage"
-   ]
+    "declarativeContent",
+    "storage"
+  ],
+  "page_action": {
+    "default_icon": "icons/icon19.png",
+    "default_popup": "popup/popup.html"
+  },
+  "icons": {
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
 }
