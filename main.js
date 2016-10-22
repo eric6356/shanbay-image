@@ -20,7 +20,7 @@ document.addEventListener('keypress', function (e) {
     }
 
     chrome.storage.sync.get({
-        engine: 'chrome',
+        engine: 'google',
         shortcut: 'i'
     }, function (items) {
         if (e.key.toLowerCase() == items.shortcut.toLowerCase()) {
