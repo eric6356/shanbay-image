@@ -1,0 +1,33 @@
+html, body, h1, div {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+}
+
+h1 {
+    font-size: 18px;
+    color: #209e85;
+    text-align: justify;
+}
+
+.container {
+    width: 144px;
+    flex-direction: column;
+    margin: 6px;
+    justify-content: space-between;
+    height: 72px;
+}
+
+label {
+    width: 72px;
+}
+
+.input {
+    width: 72px;
+    justify-content: space-between;
+}
+
+.shortcut input {
+    width: 12px;
+}

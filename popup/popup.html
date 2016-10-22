@@ -5,17 +5,27 @@
     <meta charset="utf-8">
     <title>Shanbay Image</title>
     <script src="./popup.js"></script>
+    <link rel="stylesheet" href="./popup.css">
 </head>
 
-<body style="min-width: 127px">
-    搜索引擎:
-    <select id="engine">
-            <option value="google">Google</option>
-            <option value="bing">Bing</option>
-        </select>
-    <br> 快捷键：
-    <input type="text" id="inputShortcut" style="width: 1em" maxlength="1" disabled>
-    <button id="btnShortcut">修改</button>
+<body>
+    <div class="container">
+        <h1>扇贝单词图片搜索</h1>
+        <div class="input-group engine">
+            <label for="engine">搜索引擎:</label>
+            <select id="inputEngine" class="input">
+                <option value="google">Google</option>
+                <option value="bing">Bing</option>
+            </select>
+        </div>
+        <div class="input-group shortcut"> 
+            <label for="inputShortcut">快捷键：</label>
+            <div class="input">
+                <input type="text" id="inputShortcut" maxlength="1" disabled>
+                <button id="btnShortcut">修改</button>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

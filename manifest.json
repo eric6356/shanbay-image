@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "扇贝单词图片搜索",
   "description": "背单词的时候，使用快捷键（默认为`i`）搜索当前单词对应的图片，帮助记忆",
-  "version": "1.1",
+  "version": "1.1.1",
   "content_scripts": [{
     "matches": [
       "https://www.shanbay.com/bdc/review/", 
@@ -19,11 +19,11 @@
     "storage"
   ],
   "page_action": {
-    "default_icon": "icons/icon19.png",
+    "default_icon": "images/icon19.png",
     "default_popup": "popup/popup.html"
   },
   "icons": {
-    "48": "icons/icon48.png",
-    "128": "icons/icon128.png"
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
   }
 }

@@ -1,6 +1,6 @@
 # shanbay-image
 扇贝单词图片搜索  
-![icon](https://raw.githubusercontent.com/eric6356/shanbay-image/master/icons/icon128.png)
+![icon](https://raw.githubusercontent.com/eric6356/shanbay-image/master/images/screenshot.png)
 
 ## 用法
 1. 在[此处](https://github.com/eric6356/shanbay-image/releases)下载 crx 文件

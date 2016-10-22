@@ -3,7 +3,7 @@ function restoreConfig() {
         engine: 'google',
         shortcut: 'i'
     }, function (items) {
-        document.getElementById('engine').value = items.engine;
+        document.getElementById('inputEngine').value = items.engine;
         document.getElementById('inputShortcut').value = items.shortcut;
     });
 }
@@ -44,6 +44,6 @@ function modifyShortcut() {
 
 document.addEventListener('DOMContentLoaded', function() {
     restoreConfig();
-    document.querySelector('#engine').addEventListener('change', saveEngine);
+    document.querySelector('#inputEngine').addEventListener('change', saveEngine);
     document.querySelector('#btnShortcut').addEventListener('click', modifyShortcut);
 });
