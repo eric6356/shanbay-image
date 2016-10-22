@@ -13,7 +13,7 @@
 - [x] ~~做一个 icon~~
 - [x] ~~自定义快捷键~~
 - [ ] 自定义搜索引擎
-- [ ] 在 modal 内显示结果
+- [ ] 在模态框内显示结果
 
 ## License
 [WTFPL](http://www.wtfpl.net/)
